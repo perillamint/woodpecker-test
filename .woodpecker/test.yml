@@ -1,6 +1,6 @@
 steps:
   build:
-    image: debian
+    image: rustlang/rust:nightly
     commands:
       - echo "This is the build step"
   a-test-step:
