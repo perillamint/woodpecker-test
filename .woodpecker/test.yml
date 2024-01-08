@@ -4,6 +4,6 @@ steps:
     commands:
       - echo "This is the build step"
   a-test-step:
-    image: debian
+    image: curlimages/curl
     commands:
       - curl https://example.com
