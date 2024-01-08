@@ -6,4 +6,4 @@ steps:
   a-test-step:
     image: debian
     commands:
-      - echo "Testing.."
+      - curl https://example.com
